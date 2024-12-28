@@ -1,0 +1,161 @@
+/* navbar */
+.navbar{
+    background-color: #131512 !important;
+}
+/* cart */
+#cart{
+    font-size: 25px;
+    color: chartreuse;
+    transition: 0.3s;
+    border: solid 1px yellow;
+    padding: 4px;
+    border-radius: 50px;
+    border-color: greenyellow;
+}
+#cart:hover{
+   transform: scale(1.1);
+   color: rgb(185, 13, 13);
+  
+}
+
+.nav-link{
+    color: chartreuse !important;
+}
+.percard{
+    border-color: coral;
+}
+.carousel-item img{
+    height: 100vh;
+}
+#cart1{
+    font-size: 20px;
+    color: rgb(240, 234, 232);
+}
+.myico{
+    color: blue;
+    font-size: 30px;
+}
+.carousel-caption{
+    background-color: rgba(151, 194, 224, .6);
+    border-radius: 20px;
+    color: black;
+    font-size: 20px;
+    transition: .3s;
+    bottom: 100px;
+}
+.carousel-caption:hover{
+    background-color: rgba(151, 194, 224, .8);
+    cursor: pointer;
+}
+.btn-dark{
+    border-radius: 20px;
+}
+.btn-dark:hover{
+    
+background-color: rgb(124, 208, 34);
+border-radius: 40px;
+transition: ease all .3s;
+}
+.carousel-indicators{
+    color: brown;
+}
+.carousel-indicators button{
+  height: 20px !important;
+  width: 20px !important; 
+   border-radius: 50% !important;
+   background-color: rgb(137, 236, 16) !important;
+   transition: .5s;
+  
+}
+.carousel-indicators button:hover{
+    background-color: rgb(255, 106, 7) !important;
+    
+}
+
+/* offcanvas */
+.offcan-img{
+    width: 250px !important;
+    height: 300px !important;
+    transition: 0.3s;
+}
+.offcan-img:hover{
+ cursor: pointer;
+}
+.prix{
+    color: rgb(21, 163, 245);
+    font-size: 20px;
+    font-weight: 700;
+}
+.offcan-header{
+    color: red;
+}
+
+/* products */
+
+.text-header{
+border-bottom: yellow solid 4px;
+}
+
+.btn-primary{
+    margin: 10px;
+    background-color: #423e3e !important;
+    transition: .4s;
+    
+}
+
+.btn-primary:hover{
+background-color: #000000 !important;
+border: solid 1px !important;
+border-radius: 30px !important;
+}
+
+.blue{
+    color: rgb(208, 255, 0);
+}
+.card{
+    overflow:  hidden !important;
+}
+.star{
+    color: rgb(233, 233, 11) !important;
+    cursor: pointer !important;
+    
+}
+.star:hover{
+    color: yellow !important;
+}
+.img-pro{
+    width:auto !important;
+    height: 300px !important;
+    transition: 1s ease all;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.img-pro:hover{
+    transform: scale(1.1) !important;
+    cursor: pointer;
+}
+
+/* modal */
+
+.img-modal{
+    width: 100% !important;
+    height: 130px !important;
+}
+
+/* contact */
+.contact{
+    height: 60vh ;
+   background: url('../imgs/bac3.jpg');
+   background-size: cover;
+   background-attachment: fixed;
+   color: black;
+}
+
+/* inputcontact */
+
+.btncontact{
+    background-color: aqua;
+    color: #000000;
+    border-radius: 60px;
+  
+}
