@@ -1,0 +1,2 @@
+# storbootstrap
+stor bootstrap exempl
